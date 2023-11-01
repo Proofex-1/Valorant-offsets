@@ -1,24 +1,28 @@
-        State = 0xA21DA80,
-        Key = State + 0x38,
-        relative_rotation = 0x170,
-        GetActorBounds = 0x53b7930,
-        ProcessEvent = 0x3E321C0,
-        StaticFindObject = 0x3E46860,
-        gobj_state = 0x9b3e338,
-        gobj_key = gobj_state + 0x38,
-        Pointer = 0x80,
-        SkinChanger = 0x2CFD7F0,
-        StaticLoadObject = 0x3E47310,
-        TriggerVEH = 0x1E571F0,
-        bone_matrix = 0x58DC7C0,
-        PlayerCameraManager = 0x478,
-        ChamsOffset = 0x330,
-        portrait_map = 0x1180, 
-        character_map = portrait_map + 0x8, 
-        Inventory = 0x9a8,   
-        get_spread_values_fn = 0x2b5e360,
-        get_spread_angles_fn = 0x328b8c0,
-        get_firing_location_and_direction_fn = 0x3096510,
-        to_vector_and_normalize_fn = 0x390d210,
-        to_angle_and_normalize_fn = 0x3909a00,
-        CurrentEquippable = 0x248;
+UWorldState = 0xA2889C0;
+UWorldKey = 0xA2889F8;
+GameInstance = 0x1A0;
+
+TriggerVEH = 0x1E76880;
+ProcessEvent = 0x3E79940;
+StaticFindObject = 0x3E8DFE0;
+StaticLoadObject = 0x3E8EA90;
+BoneMatrix = 0x5923D80;
+AresOutline = 0x58D2D30;
+
+GetActorBounds = 0x56F5E90;
+ProjectWorldToScreen = 0x5A72430;
+
+GObjectState = 0xA0ABC38;
+GObjectKey = 0xA0ABC70;
+
+FNamePool = 0xA050A00;
+FNamepoolDecryptWide = 0x3C09E00;
+FNamepoolDecryptNonWide = 0x3C09D90;
+
+MyHUD=0x478
+AcknowledgedPawn=0x468
+cameraController=0x480
+Mesh=0x438
+WasAlly=0xC91
+DamageHandler=0xA10
+

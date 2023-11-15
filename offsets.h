@@ -1,9 +1,9 @@
-UWorldState = 0xA2889C0;
+UWorldState = 0xa3326c0;
 UWorldKey = 0xA2889F8;
 GameInstance = 0x1A0;
 
-TriggerVEH = 0x1E76880;
-ProcessEvent = 0x3E79940;
+TriggerVEH = 0x1eaaf00;
+ProcessEvent = 0x3ee2230;
 StaticFindObject = 0x3E8DFE0;
 StaticLoadObject = 0x3E8EA90;
 BoneMatrix = 0x5923D80;
